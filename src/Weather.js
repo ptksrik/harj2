@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather?';
 const ICON_URL = 'https://openweathermap.org/img/wn/';
-const API_KEY = '5de0755ff811adea99fc7144740ea898';
+const API_KEY = '';
 
 
 export default function Weather({ lat, lng }) {
