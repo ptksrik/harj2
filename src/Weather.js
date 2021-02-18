@@ -14,9 +14,6 @@ export default function Weather({ lat, lng }) {
 
 
     useEffect(() => {
-        //tarkistaa mitkä arvot lat ja lng omistavat tässä komponentissa
-        console.log(lat, lng);
-        console.log("@ Weather.js");
 
         const url = API_URL + 'lat=' + lat + '&lon=' + lng + '&units=metric&appid=' + API_KEY;
 
